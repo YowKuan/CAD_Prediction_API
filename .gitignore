@@ -1,0 +1,7 @@
+.env
+saved_weights_clincal_diagnosis_weight14_0609data.pt
+saved_weights_techniques_weight14_0609data.pt
+__pycache__/
+.DS_Store
+app/__pycache__
+app/model/__pycache__
