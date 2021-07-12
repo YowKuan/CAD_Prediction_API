@@ -10,7 +10,8 @@ import shap
 import scipy as sp
 import matplotlib.pyplot as plt 
 
-ip_addr = 'localhost:5555'
+#ip_addr = 'localhost:5555'
+ip_addr = str(socket.gethostbyname(socket.gethostname()))+':5555'
 
 device = torch.device("cuda")
 bert = AutoModel.from_pretrained("emilyalsentzer/Bio_ClinicalBERT")

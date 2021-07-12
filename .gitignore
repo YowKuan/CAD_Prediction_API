@@ -5,3 +5,5 @@ __pycache__/
 .DS_Store
 app/__pycache__
 app/model/__pycache__
+app/model/templates/*
+!app/model/templates/.gitkeep 

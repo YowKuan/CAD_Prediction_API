@@ -9,8 +9,13 @@ import os
 import shap
 import scipy as sp
 import matplotlib.pyplot as plt 
+import socket
 
 ip_addr = 'localhost:5555'
+
+ip_addr = str(socket.gethostbyname(socket.gethostname()))+':5555'
+print(ip_addr)
+
 
 # df = pd.read_csv('./CAD_test10_preprocessed.csv', encoding='utf-8')
 # test_text = df['clinical_diagnosis_conclusion']
