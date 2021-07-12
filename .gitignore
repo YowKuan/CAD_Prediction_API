@@ -1,9 +1,9 @@
 .env
 saved_weights_clincal_diagnosis_weight14_0609data.pt
 saved_weights_techniques_weight14_0609data.pt
-__pycache__/
+CAD_test.csv
+CAD_test10_preprocessed.csv
+__pycache__/git
 .DS_Store
 app/__pycache__
 app/model/__pycache__
-app/model/templates/*
-!app/model/templates/.gitkeep 

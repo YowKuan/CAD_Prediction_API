@@ -9,6 +9,7 @@ import os
 import shap
 import scipy as sp
 import matplotlib.pyplot as plt 
+import socket
 
 #ip_addr = 'localhost:5555'
 ip_addr = str(socket.gethostbyname(socket.gethostname()))+':5555'
